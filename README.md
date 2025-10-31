@@ -1,1 +1,51 @@
-#  Comandos Essenciais do Terminal Linux**Guia Rpido e Minimalista para Iniciantes (Zorin OS / Debian-based)**---##  Navegaço| Comando | Descriço | Exemplo || :--- | :--- | :--- || ćlear'| Limpa a tela. | ćlear'|| ṕwd'| Mostra o caminho da pasta atual. | ṕwd'|| ĺs'| Lista arquivos e pastas. | ĺs -l'|| ćd zpastax'| Entra numa pasta. | ćd Documentos'|| ćd ..'| Volta para a pasta anterior. | ćd ..'|| ćd ~'| Vai para o diretrio Home. | ćd ~'|---##  Manipulaço**Cuidado:** ŕm'apaga permanentemente.| Comando | Descriço | Exemplo || :--- | :--- | :--- || ḿkdir znomex'| Cria uma nova pasta. | ḿkdir Projeto'|| ´touch znomex'| Cria um arquivo vazio. | ´touch nota.txt'|| ćat zarquivox'| Exibe o contedo de um arquivo. | ćat nota.txt'|| ćp zorigemx zdestinox'| Copia arquivos/pastas. | ćp a.txt b.txt'|| ḿv zorigemx zdestinox'| Move ou renomeia. | ḿv a.txt novo.txt'|| ŕm zarquivox'| Remove um arquivo. | ŕm lixo.txt'|| ŕm -r zpastax'| Remove uma pasta e seu contedo. | ŕm -r Antiga'|---##  Sistema & Ajuda| Comando | Descriço | Exemplo || :--- | :--- | :--- || śudo zcomandox'| Executa como administrador (requer senha). | śudo apt update'|| ápt update'| Atualiza a lista de pacotes. | śudo apt update'|| ápt upgrade'| Atualiza os pacotes instalados. | śudo apt upgrade'|| ḿan zcomandox'| Abre o manual do comando (pressione ´q'para sair). | ḿan cd'|---##  Atalhos teis* **´Tab´**: Autocompleta nomes de comandos e arquivos. Use sempre!* **Ćtrl + C´**: Interrompe o comando atual.* **Śeta para Cima´**: Repete o comando anterior.
+# 🐧 Comandos Essenciais do Terminal Linux
+
+**Guia Rápido e Minimalista para Iniciantes (Zorin OS / Debian-based)**
+
+---
+
+## 🧭 Navegação
+
+| Comando | Descrição | Exemplo |
+| :--- | :--- | :--- |
+| `clear` | Limpa a tela. | `clear` |
+| `pwd` | Mostra o caminho da pasta atual. | `pwd` |
+| `ls` | Lista arquivos e pastas. | `ls -l` |
+| `cd <pasta>` | Entra numa pasta. | `cd Documentos` |
+| `cd ..` | Volta para a pasta anterior. | `cd ..` |
+| `cd ~` | Vai para o diretório Home. | `cd ~` |
+
+---
+
+## 📁 Manipulação
+
+**Cuidado:** `rm` apaga permanentemente.
+
+| Comando | Descrição | Exemplo |
+| :--- | :--- | :--- |
+| `mkdir <nome>` | Cria uma nova pasta. | `mkdir Projeto` |
+| `touch <nome>` | Cria um arquivo vazio. | `touch nota.txt` |
+| `cat <arquivo>` | Exibe o conteúdo de um arquivo. | `cat nota.txt` |
+| `cp <origem> <destino>` | Copia arquivos/pastas. | `cp a.txt b.txt` |
+| `mv <origem> <destino>` | Move ou renomeia. | `mv a.txt novo.txt` |
+| `rm <arquivo>` | Remove um arquivo. | `rm lixo.txt` |
+| `rm -r <pasta>` | Remove uma pasta e seu conteúdo. | `rm -r Antiga` |
+
+---
+
+## ⚙️ Sistema & Ajuda
+
+| Comando | Descrição | Exemplo |
+| :--- | :--- | :--- |
+| `sudo <comando>` | Executa como administrador (requer senha). | `sudo apt update` |
+| `apt update` | Atualiza a lista de pacotes. | `sudo apt update` |
+| `apt upgrade` | Atualiza os pacotes instalados. | `sudo apt upgrade` |
+| `man <comando>` | Abre o manual do comando (pressione `q` para sair). | `man cd` |
+
+---
+
+## ⚡ Atalhos Úteis
+
+* **`Tab`**: Autocompleta nomes de comandos e arquivos. Use sempre!
+* **`Ctrl + C`**: Interrompe o comando atual.
+* **`Seta para Cima`**: Repete o comando anterior.
